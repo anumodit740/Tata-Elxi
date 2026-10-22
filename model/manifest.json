@@ -1,0 +1,71 @@
+{
+  "python": "3.12.14",
+  "model_family": "HistGB",
+  "target_cap": 115,
+  "warning_horizon": 30,
+  "models": {
+    "FD001": {
+      "file": "FD001.joblib",
+      "sha256": "17ae1f02a94985125b7eb51d605a8973e509b14aad7d3cf837cb79dbf5e5370e",
+      "bytes": 353466,
+      "candidate": "hist_gradient_boosting__115",
+      "model_version": "3",
+      "train_sha256": "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8",
+      "warning_threshold": 0.5337854586662071,
+      "classifier_order_creation_enabled": false
+    },
+    "FD002": {
+      "file": "FD002.joblib",
+      "sha256": "8311461f36bb9e05b2294e1bc1150900e4a296c183d00377643dfb7829d0b42f",
+      "bytes": 425551,
+      "candidate": "hist_gradient_boosting__115",
+      "model_version": "3",
+      "train_sha256": "dac6c4dbc4e7c1bdeb5747da3d313d05c395bb99801b44a002b26a2ba13d788f",
+      "warning_threshold": 0.56311066135099,
+      "classifier_order_creation_enabled": false
+    },
+    "FD003": {
+      "file": "FD003.joblib",
+      "sha256": "62fda1996e9ce11f826faa617bca433533fe35873237d9acee1485e459de37b0",
+      "bytes": 357316,
+      "candidate": "hist_gradient_boosting__115",
+      "model_version": "3",
+      "train_sha256": "2abbe9968cc5e8eb091980f51b20f62bb4127336d3482cb52071d53bf23329e2",
+      "warning_threshold": 0.7822388608619198,
+      "classifier_order_creation_enabled": false
+    },
+    "FD004": {
+      "file": "FD004.joblib",
+      "sha256": "a36910e53d8911556340f8de94d73f1228cc4760ae47d66e75ac1a271bdc8db2",
+      "bytes": 430225,
+      "candidate": "hist_gradient_boosting__115",
+      "model_version": "3",
+      "train_sha256": "27ef6160b6a1dcb2613a88de9c239f763b223f02cdc41dc5cdedc5dc189b6218",
+      "warning_threshold": 0.7121547193108199,
+      "classifier_order_creation_enabled": false
+    }
+  },
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.7.0"
+  },
+  "team": {
+    "name": "AI-FBI",
+    "members": [
+      "Anumodit Shukla",
+      "Yogesh Singh",
+      "Anoop Kumar"
+    ]
+  },
+  "classifier_role": "INFORMATIONAL_ONLY",
+  "historical_test_status": "benchmark, previously inspected; no selection use",
+  "runtime_source_hashes": {
+    "core.py": "53b9a7b3749001673ced5e32c7d5b8c27b37d43ec6927da3631e778ec3d3458a",
+    "warning_head.py": "b672d76fa1098f92db1e137e6466203f41164f10360ca7cc3607f81691e170c5",
+    "inference_v3.py": "06e88f7bf74f02f6d178c111de6c46d8ea45a998a1dac049f9b1c58d1a7a9e98"
+  }
+}

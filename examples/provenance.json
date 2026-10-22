@@ -1,0 +1,36 @@
+{
+  "source_url": "https://phm-datasets.s3.amazonaws.com/NASA/6.+Turbofan+Engine+Degradation+Simulation+Data+Set.zip",
+  "archive_sha256": "c9c5dec12a945a82e8bb4446589d7fb3cc057b5e5d81fa1a12e25ee9912ad3b2",
+  "sample_cache_excluded_from_release": true,
+  "official_test_members_opened": false,
+  "samples": {
+    "FD001": {
+      "engine_id": 1,
+      "rows": 192,
+      "train_sha256": "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8",
+      "sample_sha256": "a90e4212c377f3b41cbf2cdaf40daaa418dae155fa925a8b51034408785268dc",
+      "scope": "First fitting-TRAIN engine, chosen by ID. Runtime demo only, not validation."
+    },
+    "FD002": {
+      "engine_id": 1,
+      "rows": 149,
+      "train_sha256": "dac6c4dbc4e7c1bdeb5747da3d313d05c395bb99801b44a002b26a2ba13d788f",
+      "sample_sha256": "70b467e55ca0520831359ca941a7f77c51676460131351a8f6a6abd3c7abb627",
+      "scope": "First fitting-TRAIN engine, chosen by ID. Runtime demo only, not validation."
+    },
+    "FD003": {
+      "engine_id": 1,
+      "rows": 259,
+      "train_sha256": "2abbe9968cc5e8eb091980f51b20f62bb4127336d3482cb52071d53bf23329e2",
+      "sample_sha256": "8da0a3768b5eb4da9628d707549b2fce2306ecc49892cebfe7c5e4072ec6b9b3",
+      "scope": "First fitting-TRAIN engine, chosen by ID. Runtime demo only, not validation."
+    },
+    "FD004": {
+      "engine_id": 1,
+      "rows": 321,
+      "train_sha256": "27ef6160b6a1dcb2613a88de9c239f763b223f02cdc41dc5cdedc5dc189b6218",
+      "sample_sha256": "e8a408b8683e16d1f29b2bc62387390ffe06049e6589e94b6996bb2848e3fa7f",
+      "scope": "First fitting-TRAIN engine, chosen by ID. Runtime demo only, not validation."
+    }
+  }
+}

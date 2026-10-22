@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+.runtime/
+state/
+predictions*.csv
+raw/
+mlruns/
+*.db
+node_modules/
+*.map

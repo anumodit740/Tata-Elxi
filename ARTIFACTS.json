@@ -1,0 +1,120 @@
+{
+  "files": [
+    {
+      "file": ".gitignore",
+      "sha256": "b9b4d58346d06c69b2ba3e011b24cfa124b02d519f9dab5ee1eeb12cbb39e22c"
+    },
+    {
+      "file": ".python-version",
+      "sha256": "8dfda54ba2f66ab3a8ebab460f4338bbeea1fb1e0f85ce06fe3530aa3c64679b"
+    },
+    {
+      "file": ".streamlit/config.toml",
+      "sha256": "f910247951af07d4b9cd1d66e0c17a2c54a7f0d406019556638ba5421e34ede5"
+    },
+    {
+      "file": "LICENSE",
+      "sha256": "f5eee63fb76b6585d82d7c3e7e7c5136331316c3256e72cb6bdf587f234d20de"
+    },
+    {
+      "file": "README.md",
+      "sha256": "d50acca0df51bc91836e065190915800fa61498a5481db932cd2e159a966b082"
+    },
+    {
+      "file": "agent_v3.py",
+      "sha256": "e238b7d81fa5fae7aba4227cd5f3f66245e66e28b914c64a101c2cd23fd14a18"
+    },
+    {
+      "file": "app.py",
+      "sha256": "0de3747c89e6efe1c0ca10d40e2f6eb9ac046ce6a044c16b68e92a66df693059"
+    },
+    {
+      "file": "examples/provenance.json",
+      "sha256": "735a053f524fdb4063ff7fd6c955d4193689e9827e85e115781005bcff2dda9e"
+    },
+    {
+      "file": "frontend/THIRD_PARTY_LICENSES.txt",
+      "sha256": "759f02b5afb6ca84446d9c811992e8a7709c4a9a145aad5544e84959a2aacfa0"
+    },
+    {
+      "file": "frontend/app.css",
+      "sha256": "245aa3a00ec21c58b960eaa6b0f2e73c124b8c63ab98fd9905853c89c0f12e41"
+    },
+    {
+      "file": "frontend/build.mjs",
+      "sha256": "67254588bfbd70d13a83ee076b9a09bb3238755db6c86d01d938d8dea0dbf4ab"
+    },
+    {
+      "file": "frontend/dashboard.css",
+      "sha256": "c98cd326374ce4b58f3fd6249e0569ab505c4ab8f8120f207133e889608697e6"
+    },
+    {
+      "file": "frontend/dashboard.js",
+      "sha256": "fb514c106bb4b35a13bf1c8f79d438e421bd7fdd9933a9bfcdc6c4d8a769ccb3"
+    },
+    {
+      "file": "frontend/package.json",
+      "sha256": "ba0fb68c1a4a56a7cd70fce10e93e8554a3ccf178768d91c1b24dc4e5af031f0"
+    },
+    {
+      "file": "frontend/pnpm-lock.yaml",
+      "sha256": "9598451b1cb36ef431146bb8c5c86f28e97c6d871a8582592956ab12e0f88fb4"
+    },
+    {
+      "file": "frontend/src/Dashboard.jsx",
+      "sha256": "96e5450efa3af0475b8ffda9b7b948eb805871550b5a00f6075a72ea81198c31"
+    },
+    {
+      "file": "model/FD001.joblib",
+      "sha256": "17ae1f02a94985125b7eb51d605a8973e509b14aad7d3cf837cb79dbf5e5370e"
+    },
+    {
+      "file": "model/FD002.joblib",
+      "sha256": "8311461f36bb9e05b2294e1bc1150900e4a296c183d00377643dfb7829d0b42f"
+    },
+    {
+      "file": "model/FD003.joblib",
+      "sha256": "62fda1996e9ce11f826faa617bca433533fe35873237d9acee1485e459de37b0"
+    },
+    {
+      "file": "model/FD004.joblib",
+      "sha256": "a36910e53d8911556340f8de94d73f1228cc4760ae47d66e75ac1a271bdc8db2"
+    },
+    {
+      "file": "model/core.py",
+      "sha256": "53b9a7b3749001673ced5e32c7d5b8c27b37d43ec6927da3631e778ec3d3458a"
+    },
+    {
+      "file": "model/inference_v3.py",
+      "sha256": "06e88f7bf74f02f6d178c111de6c46d8ea45a998a1dac049f9b1c58d1a7a9e98"
+    },
+    {
+      "file": "model/manifest.json",
+      "sha256": "8b4fc5dfe36652fe98ed3782862d11bbcf8e4834a1358f13a444015696d98afa"
+    },
+    {
+      "file": "model/warning_head.py",
+      "sha256": "b672d76fa1098f92db1e137e6466203f41164f10360ca7cc3607f81691e170c5"
+    },
+    {
+      "file": "requirements.txt",
+      "sha256": "ffc0a8da9a6bf709a17ad362359a9054912e33a82f96fab69f4abb9e6efe0382"
+    },
+    {
+      "file": "run.py",
+      "sha256": "a85a54c77ab845a56f8af5fefbd26e2157d11546438379c8873f34f76c71696e"
+    },
+    {
+      "file": "service.py",
+      "sha256": "ffa21a28f8f8dda243362d5506d59e4ee71fcc9a700af0dc6e46d9a2b0fc3de6"
+    },
+    {
+      "file": "ui.py",
+      "sha256": "3812a15728e523cd5f370b9792a192e610ba7c5dab6448b0eeab113b050a7228"
+    },
+    {
+      "file": "verify_package.py",
+      "sha256": "fbaa76d5588759daf77125fe47f92a3a31defc3eadbaced54e497fc06a4e57a1"
+    }
+  ]
+}
