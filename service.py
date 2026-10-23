@@ -24,6 +24,10 @@ def validate_history(raw):
     for _,g in raw.groupby('engine_id',sort=False):
         if int(g.cycle.iloc[0])!=1 or not np.array_equal(g.cycle.to_numpy(),np.arange(1,len(g)+1)):
             raise DataValidationError('Supply complete available history from cycle 1, with no missing cycles.')
+def _sample_digest(payload):
+    # Published sample hashes use CRLF. Normalize only newlines, never values.
+    canonical=payload.replace(b'\r\n',b'\n').replace(b'\n',b'\r\n')
+    return hashlib.sha256(canonical).hexdigest()
 def load_sample(subset):
     if subset not in SUBSETS:raise ValueError('Unsupported subset.')
     p=ROOT/'.runtime/examples'/f'{subset}_TRAIN_engine1.csv'
@@ -33,8 +37,10 @@ def load_sample(subset):
         frame=pd.read_csv(io.BytesIO(data),sep=r'\s+',header=None);frame.columns=CANONICAL_COLUMNS
         sample=frame[frame.engine_id==info['engine_id']].reset_index(drop=True)
         p.parent.mkdir(parents=True,exist_ok=True)
-        p.write_text(sample.to_csv(index=False,float_format='%.17g',lineterminator='\n'),encoding='utf-8')
-    if sha256(p)!=info['sample_sha256']:raise ValueError('Demo sample integrity check failed.')
+        payload=sample.to_csv(index=False,float_format='%.17g',lineterminator='\r\n').encode('utf-8')
+        if _sample_digest(payload)!=info['sample_sha256']:raise ValueError('Demo sample integrity check failed.')
+        p.write_bytes(payload)
+    if _sample_digest(p.read_bytes())!=info['sample_sha256']:raise ValueError('Demo sample integrity check failed.')
     out=pd.read_csv(p,float_precision='round_trip');validate_history(out);return out
 @lru_cache(maxsize=1)
 def _download_archive():
